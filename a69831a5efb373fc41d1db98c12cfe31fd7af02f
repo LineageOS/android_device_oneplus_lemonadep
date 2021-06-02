@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "af074b0a_02b0276f",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-06-02T22:50:33Z",
+      "side": 1,
+      "message": "this is in common",
+      "range": {
+        "startLine": 366,
+        "startChar": 19,
+        "endLine": 366,
+        "endChar": 46
+      },
+      "revId": "a69831a5efb373fc41d1db98c12cfe31fd7af02f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
