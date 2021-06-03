@@ -2662,6 +2662,23 @@
         <path name="audio-playback-voip tert_i2s" />
     </path>
 
+    <!--Run.Zhang@PSW.MM.AudioDriver.HAL, 2021/04/09, Add route for bug 1297527-->
+    <path name="audio-playback-voip speaker-and-bt-sco">
+        <path name="audio-playback-voip" />
+        <path name="audio-playback-voip bt-sco" />
+    </path>
+
+    <path name="audio-playback-voip speaker-and-bt-sco-wb">
+        <path name="audio-playback-voip" />
+        <path name="audio-playback-voip bt-sco-wb" />
+    </path>
+
+    <path name="audio-playback-voip speaker-and-bt-sco-swb">
+        <path name="audio-playback-voip" />
+        <path name="audio-playback-voip bt-sco-swb" />
+    </path>
+    <!--Run.Zhang@PSW.MM.AudioDriver.HAL, 2021/04/09, Add route for bug 1297527-->
+
     <!-- VoIP Tx settings -->
     <path name="audio-record-voip-low-latency">
         <ctl name="MultiMedia8 Mixer TX_CDC_DMA_TX_3" value="1" />
