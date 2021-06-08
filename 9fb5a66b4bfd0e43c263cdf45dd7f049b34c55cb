@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2a5fdb60_2766c870",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 421,
+      "author": {
+        "id": 19936
+      },
+      "writtenOn": "2021-06-08T13:50:09Z",
+      "side": 1,
+      "message": "Isn\u0027t this redundant",
+      "range": {
+        "startLine": 421,
+        "startChar": 8,
+        "endLine": 421,
+        "endChar": 16
+      },
+      "revId": "9fb5a66b4bfd0e43c263cdf45dd7f049b34c55cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
