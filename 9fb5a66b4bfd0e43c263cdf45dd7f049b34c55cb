@@ -46,6 +46,30 @@
       "revId": "9fb5a66b4bfd0e43c263cdf45dd7f049b34c55cb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb6f0d4d_fb6a9115",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 421,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-06-08T13:53:43Z",
+      "side": 1,
+      "message": "Looks like it\u0027s just right in the middle of circle tho so looks kinda cool. Maybe I saw it in some \"how to draw vector circle\" post on the internet.",
+      "parentUuid": "e35be412_128ac181",
+      "range": {
+        "startLine": 421,
+        "startChar": 8,
+        "endLine": 421,
+        "endChar": 16
+      },
+      "revId": "9fb5a66b4bfd0e43c263cdf45dd7f049b34c55cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
