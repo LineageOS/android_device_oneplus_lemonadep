@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,11 +21,6 @@ DEVICE_PATH := device/oneplus/lemonadep
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
-# Fingerprint
-SOONG_CONFIG_ONEPLUS_FOD_POS_X = 604
-SOONG_CONFIG_ONEPLUS_FOD_POS_Y = 2828
-SOONG_CONFIG_ONEPLUS_FOD_SIZE = 232
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

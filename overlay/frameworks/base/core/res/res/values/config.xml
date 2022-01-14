@@ -497,4 +497,14 @@
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
          -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+
+    <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
+    <integer-array name="config_udfps_sensor_props" translatable="false" >
+        <item>604</item> <!--item>sensorLocationX</item-->
+        <item>2828</item> <!--item>sensorLocationY</item-->
+        <item>232</item> <!--item>sensorRadius</item-->
+    </integer-array>
+
+    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
+    <integer name="config_udfps_illumination_transition_ms">0</integer>
 </resources>
