@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.recovery.target.rc
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Inherit from oneplus sm8350-common
