@@ -22,9 +22,6 @@ DEVICE_PATH := device/oneplus/lemonadep
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # Recovery
 TARGET_RECOVERY_DENSITY := xxhdpi
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 126
