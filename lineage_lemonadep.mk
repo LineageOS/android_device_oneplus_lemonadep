@@ -37,7 +37,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus9Pro \
-    TARGET_PRODUCT=OnePlus9Pro_EEA \
-    PRIVATE_BUILD_DESC="OnePlus9Pro-user 11   release-keys"
+    TARGET_PRODUCT=OnePlus9Pro_EEA
 
-BUILD_FINGERPRINT := OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:11/RKQ1.201105.002/2111112053:user/release-keys
+BUILD_FINGERPRINT := OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:12/SKQ1.210216.001/R.202203102003:user/release-keys
