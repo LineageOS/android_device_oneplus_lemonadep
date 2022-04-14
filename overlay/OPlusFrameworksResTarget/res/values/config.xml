@@ -376,73 +376,48 @@
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
 
-    <!-- Boolean indicating whether display white balance is supported. -->
-    <bool name="config_displayWhiteBalanceAvailable">true</bool>
-
-    <!-- See AmbientSensor.AmbientColorTemperatureSensor.
-         The ambient color temperature sensor name. -->
-    <string name="config_displayWhiteBalanceColorTemperatureSensorName">qti.sensor.rgb</string>
-
     <!-- Minimum color temperature, in Kelvin, supported by display white balance. -->
     <integer name="config_displayWhiteBalanceColorTemperatureMin">5000</integer>
 
     <!-- Maximum color temperature, in Kelvin, supported by display white balance. -->
     <integer name="config_displayWhiteBalanceColorTemperatureMax">7400</integer>
 
-    <!-- See DisplayWhiteBalanceThrottler.
-         The increase threshold values, throttled if value < value * (1 + threshold). Must be
-         non-empty, the same length as config_displayWhiteBalanceBaseThresholds, and contain
-         non-negative numbers. -->
-    <array name="config_displayWhiteBalanceIncreaseThresholds">
-        <item>0.15</item>
-    </array>
-
-    <!-- See DisplayWhiteBalanceThrottler.
-         The decrease threshold values, throttled if value > value * (1 - threshold). Must be
-         non-empty, the same length as config_displayWhiteBalanceBaseThresholds, and contain
-         non-negative numbers. -->
-    <array name="config_displayWhiteBalanceDecreaseThresholds">
-        <item>0.15</item>
-    </array>
-
     <!-- See DisplayWhiteBalanceController.
-         A float array containing a list of ambient color temperatures, in Kelvin. This array,
-         together with config_displayWhiteBalanceDisplayColorTemperatures, is used to generate a
-         lookup table used in DisplayWhiteBalanceController. This lookup table is used to map
-         ambient color temperature readings to a target color temperature for the display.
-         This table is optional. If used, this array must,
-         1) Contain at least two entries
-         2) Be the same length as config_displayWhiteBalanceDisplayColorTemperatures. -->
-    <integer-array name="config_displayWhiteBalanceAmbientColorTemperatures">
-        <item>2800</item>
-        <item>3600</item>
-        <item>4000</item>
-        <item>4500</item>
-        <item>5000</item>
-        <item>6100</item>
-        <item>6700</item>
-        <item>7000</item>
-        <item>8000</item>
-    </integer-array>
-
-    <!-- See DisplayWhiteBalanceController.
-         A float array containing a list of ambient color temperatures, in Kelvin. This array,
-         together with config_displayWhiteBalanceDisplayColorTemperatures, is used to generate a
-         lookup table used in DisplayWhiteBalanceController. This lookup table is used to map
-         ambient color temperature readings to a target color temperature for the display.
-         This table is optional. If used, this array must,
-         1) Contain at least two entries
-         2) Be the same length as config_displayWhiteBalanceDisplayColorTemperatures. -->
+         An array containing a list of display color temperatures, in Kelvin. See
+         config_displayWhiteBalanceAmbientColorTemperatures for additional details.
+         The same restrictions apply to this array. -->
     <integer-array name="config_displayWhiteBalanceDisplayColorTemperatures">
-        <item>5109</item>
-        <item>5198</item>
-        <item>5249</item>
-        <item>5556</item>
-        <item>5848</item>
-        <item>6522</item>
-        <item>6737</item>
-        <item>6909</item>
-        <item>7373</item>
+        <item>5604</item>
+        <item>5604</item>
+        <item>5629</item>
+        <item>5657</item>
+        <item>5686</item>
+        <item>5713</item>
+        <item>5749</item>
+        <item>5877</item>
+        <item>6056</item>
+        <item>6202</item>
+        <item>6348</item>
+        <item>6506</item>
+        <item>6673</item>
+        <item>6834</item>
+        <item>6974</item>
+        <item>7080</item>
+        <item>7160</item>
+        <item>7261</item>
+        <item>7409</item>
+        <item>7537</item>
+        <item>7658</item>
+        <item>7771</item>
+        <item>7873</item>
+        <item>7873</item>
+        <item>7873</item>
+        <item>7873</item>
+        <item>7873</item>
+        <item>7873</item>
+        <item>7873</item>
+        <item>7873</item>
+        <item>7873</item>
     </integer-array>
 
     <!-- The bounding path of the cutout region of the main built-in display.
