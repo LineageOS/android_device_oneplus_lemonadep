@@ -47,6 +47,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.recovery.target.rc
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Inherit from oneplus sm8350-common
