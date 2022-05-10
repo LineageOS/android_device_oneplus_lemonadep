@@ -22,11 +22,11 @@ DEVICE_PATH := device/oneplus/lemonadep
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Display
+TARGET_SCREEN_DENSITY := 560
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# Recovery
-TARGET_RECOVERY_DENSITY := xxhdpi
 
 # inherit from the proprietary version
 -include vendor/oneplus/lemonadep/BoardConfigVendor.mk
