@@ -1,0 +1,11 @@
+//
+// Copyright (C) 2022 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.recovery.target.rc",
+    src: "init.recovery.target.rc",
+    sub_dir: "init",
+    recovery: true,
+}
