@@ -21,9 +21,6 @@ PRODUCT_PACKAGES += \
     init.recovery.target.rc
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
     SettingsProviderResDevice \
