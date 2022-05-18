@@ -33,8 +33,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-PRODUCT_SHIPPING_API_LEVEL := 30
-
 # Inherit from oneplus sm8350-common
 $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
