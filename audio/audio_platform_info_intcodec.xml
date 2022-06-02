@@ -187,7 +187,6 @@
         <!--MinYi.Hu@MULTIMEDIA.AUDIODRIVER.HAL, 2021/08/18, add for HAC-->
         <device name="SND_DEVICE_OUT_VOICE_HAC_HANDSET" acdb_id="103"/>
         <device name="SND_DEVICE_IN_VOICE_HAC_HANDSET_DMIC" acdb_id="105"/>
-        <!--<device name="SND_DEVICE_OUT_VOICE_HAC_HANDSET" acdb_id="7"/>-->
         <!--MinYi.Hu@MULTIMEDIA.AUDIODRIVER.HAL, 2021/08/18, add for HAC end-->
         <!--#Jianfeng.Qiu@PSW.MM.AudioDriver.HAL, 2017/09/22, Add for oplus config-->
         <device name="SND_DEVICE_IN_UNPROCESSED_USB_HEADSET_MIC" acdb_id="133"/>
