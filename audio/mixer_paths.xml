@@ -3836,6 +3836,12 @@
         <path name="dmic-endfire" />
     </path>
 
+    <!--MinYi.Hu@MULTIMEDIA.AUDIODRIVER.HAL, 2021/08/18, add for HAC-->
+    <path name="voice-dmic-ef-hac">
+        <path name="dmic-endfire" />
+    </path>
+    <!--MinYi.Hu@MULTIMEDIA.AUDIODRIVER.HAL, 2021/08/18, add for HAC end-->
+
     <path name="voice-speaker-dmic-ef">
         <path name="speaker-dmic-endfire" />
     </path>
