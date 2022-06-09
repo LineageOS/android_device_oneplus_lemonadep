@@ -18,10 +18,10 @@ odm/firmware/tfa98xx.cnt
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
-odm/etc/camera/calibrationOutput_wt.bin
+odm/etc/camera/CameraHWConfiguration.config
 odm/etc/camera/calibrationOutput_uw.bin
 odm/etc/camera/calibrationOutput_uw_686.bin
-odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/calibrationOutput_wt.bin
 odm/etc/camera/engineer_camera_config
 odm/etc/camera/settings_fdc.txt
 odm/etc/init/calibrationOutput_wt.rc
@@ -32,8 +32,8 @@ odm/lib64/camera/com.qti.sensormodule.lemonadep.qtech_ov08a10.bin
 odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789.bin
 odm/lib64/camera/com.qti.sensormodule.lemonadep.semco_imx789_MP.bin
 odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766.bin
-odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_ak7375c.bin
 odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_MP.bin
+odm/lib64/camera/com.qti.sensormodule.lemonadep.sunny_imx766_ak7375c.bin
 odm/lib64/camera/com.qti.sensormodule.lemonadep.truly_imx471.bin
 odm/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin
 odm/lib64/camera/com.qti.tuned.qtech_ov08a10.bin
