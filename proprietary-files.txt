@@ -108,4 +108,3 @@ odm/etc/sensor/sensor_config.json
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
-odm/etc/wifi/regdb.bin
