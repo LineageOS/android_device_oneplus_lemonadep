@@ -23,10 +23,6 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3168
 TARGET_SCREEN_WIDTH := 1440
 
-# Device init scripts
-PRODUCT_PACKAGES += \
-    init.recovery.target.rc
-
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
