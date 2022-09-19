@@ -16,6 +16,24 @@
       "message": "Might as well move bt config to common now?",
       "revId": "3ed4c2f9dca4062ae4226ba212179c74fda88329",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be686d8a_8ea8f607",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-09-19T10:30:11Z",
+      "side": 1,
+      "message": "Yea, now we can do that.",
+      "parentUuid": "eba5362f_fb459731",
+      "revId": "3ed4c2f9dca4062ae4226ba212179c74fda88329",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
