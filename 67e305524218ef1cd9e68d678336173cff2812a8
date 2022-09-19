@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "890b3b5f_f09c1bbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-09-19T13:13:19Z",
+      "side": 1,
+      "message": "\u003e Patch Set 1: Code-Review-2\n\u003e \n\u003e would wait with this one\n\nAlright, changed the order in the chain.",
+      "revId": "67e305524218ef1cd9e68d678336173cff2812a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
