@@ -248,6 +248,10 @@
     <!-- RT Proxy Cal end -->
 
     <!-- Incall Recording -->
+    <!-- zhangrun@MULTIMEDIA.AudioDriver.HAL, 2022/01/30, add for support call record in ocar mode -->
+    <ctl name="MultiMedia2 Mixer VOC_REC_UL" value="0"/>
+    <ctl name="MultiMedia2 Mixer VOC_REC_DL" value="0"/>
+    <!-- zhangrun@MULTIMEDIA.AudioDriver.HAL, 2022/01/30, add for support call record in ocar mode end -->
     <ctl name="MultiMedia9 Mixer VOC_REC_UL" value="0" />
     <ctl name="MultiMedia9 Mixer VOC_REC_DL" value="0" />
     <ctl name="MultiMedia8 Mixer VOC_REC_UL" value="0" />
@@ -2639,8 +2643,8 @@
     </path>
 
     <path name="incall-rec-uplink-and-downlink">
-        <path name="incall-rec-uplink" />
-        <path name="incall-rec-downlink" />
+        <ctl name="MultiMedia2 Mixer VOC_REC_UL" value="1" />
+        <ctl name="MultiMedia2 Mixer VOC_REC_DL" value="1" />
     </path>
 
     <path name="incall-rec-uplink-and-downlink bt-sco">

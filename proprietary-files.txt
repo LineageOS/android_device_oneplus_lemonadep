@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9 Pro (LE2125_13.1.0.593(EX01)).
+## are from OnePlus 9 Pro (LE2125_14.0.0.500(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -20,18 +20,12 @@ odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
 odm/lib/rfsa/adsp/libQnnHtpSkel.so
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
 odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel.so
-odm/lib/rfsa/adsp/libaiboost_skel_v65.so
-odm/lib/rfsa/adsp/libaiboost_skel_v66.so
 odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so
-odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5111_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_lemonade.so
 odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20031.so
-odm/lib/rfsa/adsp/libc++.so.1
-odm/lib/rfsa/adsp/libc++abi.so.1
 odm/lib/rfsa/adsp/libcalculator_domains_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
 odm/lib/rfsa/adsp/libdehaze_skel.so
@@ -125,6 +119,7 @@ odm/etc/camera/config/imx789
 odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/oplus_preview_decision_params.json
 odm/etc/camera/config/ov08a10
 odm/etc/camera/config/video_beauty_default_config
 odm/etc/camera/darksight/darksight_main.bin
@@ -535,6 +530,7 @@ odm/etc/init/calibrationOutput_uw.rc
 odm/etc/init/calibrationOutput_uw_686.rc
 odm/etc/init/calibrationOutput_wt.rc
 odm/etc/vintf/manifest/manifest_oplus_cameraextension_aidl.xml
+odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
 odm/lib/libDeVIS.so
 odm/lib/libc++_shared.so
 odm/lib/libdehaze.so
@@ -608,6 +604,7 @@ odm/lib64/libaps_frame_registration.so
 odm/lib64/libapsdarksight.so
 odm/lib64/libapsexif.so
 odm/lib64/libapsjpeg.so
+odm/lib64/libapsyuv.so
 odm/lib64/libarcsoft_calibverify_TriCamera.so
 odm/lib64/libarcsoft_distortion_correction.so
 odm/lib64/libarcsoft_dual_sat.so
@@ -646,6 +643,7 @@ odm/lib64/libc++_shared.so
 odm/lib64/libdualcam_image_optical_zoom.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
+odm/lib64/libexif-jpeg-aps.so
 odm/lib64/libfastov_dsp.so
 odm/lib64/libhta.so
 odm/lib64/libhwconfigurationutil.so
@@ -673,10 +671,14 @@ odm/lib64/libtriplecam_image_optical_zoom.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
+odm/lib64/libyuvwrapper.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
 odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
+odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
@@ -808,6 +810,7 @@ vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
+vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|436cd1f351daaee8d8068c790005e814c6e4cdb6|74cb9bfeeb96df0b707654d662042133ffb23c1a
 
 # Camera firmware
