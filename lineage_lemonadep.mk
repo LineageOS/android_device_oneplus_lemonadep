@@ -23,8 +23,8 @@ PRODUCT_MODEL := LE2125
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="OnePlus9Pro-user 13 TP1A.220905.001 R.159cc68-4eae-182baf release-keys" \
-    BuildFingerprint=OnePlus/OnePlus9Pro/OnePlus9Pro:13/TP1A.220905.001/R.159cc68-4eae-182baf:user/release-keys \
+    BuildDesc="OnePlus9Pro-user 14 UKQ1.230924.001 R.1a46f9a_1-1 release-keys" \
+    BuildFingerprint=OnePlus/OnePlus9Pro/OnePlus9Pro:14/UKQ1.230924.001/R.1a46f9a_1-1:user/release-keys \
     DeviceName=OnePlus9Pro \
     DeviceProduct=OnePlus9Pro \
     SystemDevice=OnePlus9Pro \
