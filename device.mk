@@ -61,7 +61,7 @@ PRODUCT_PACKAGES += \
 
 # PowerShare
 PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oplus
+    vendor.lineage.powershare@1.0-service.default
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
