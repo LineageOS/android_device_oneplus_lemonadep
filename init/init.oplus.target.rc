@@ -1,0 +1,2 @@
+on init
+    chown system system /proc/wireless/enable_tx
