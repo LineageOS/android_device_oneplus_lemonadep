@@ -44,7 +44,7 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
         .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so'),
     'vendor/lib/libgui1_vendor.so': blob_fixup()
-        .replace_needed('libui.so', 'libui-v30.so'),
+        .add_needed('libui_shim.so'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('27 0B 00 94', '1F 20 03 D5'),
 }  # fmt: skip
