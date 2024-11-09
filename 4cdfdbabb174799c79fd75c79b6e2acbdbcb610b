@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01d21466_d43fdf15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2024-11-09T05:09:17Z",
+      "side": 1,
+      "message": "Resolution switch does not make the items large/small with this change. Although you would have to correct the unique displayId",
+      "revId": "4cdfdbabb174799c79fd75c79b6e2acbdbcb610b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
