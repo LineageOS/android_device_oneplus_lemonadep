@@ -1,7 +1,10 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from OnePlus 9 Pro (LE2125_14.0.0.730(EX01)).
 
-abl.img;AB
+# Exceptions:
+# abl.img: from OnePlus 9 Pro (LE2125_13.1.0.593(EX01))
+
+abl.img;AB|4875db77f095947337b42d6e48f7a7510f56f4ed
 aop.img;AB
 bluetooth.img;AB
 cpucp.img;AB
