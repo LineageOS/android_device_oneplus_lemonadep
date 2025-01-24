@@ -98,12 +98,6 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
-    'vendor/lib/hw/audio.primary.lahaina.so': blob_fixup()
-        .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
-        .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so')
-        .replace_needed('libgui1_vendor.so', 'libgui_vendor.so'),
-    'vendor/lib/libextcamera_client.so': blob_fixup()
-        .replace_needed('libgui1_vendor.so', 'libgui_vendor.so'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .call(blob_fixup_nop_call, 'bl', '__cfi_check', '_ZN7android8hardware22configureRpcThreadpoolEmb@plt'),
 }  # fmt: skip
