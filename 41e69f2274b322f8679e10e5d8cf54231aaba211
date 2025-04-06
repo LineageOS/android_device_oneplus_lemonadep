@@ -85,6 +85,23 @@
       "message": "oops, maybe this is just on yupik and it doesn\u0027t affect lahaina.",
       "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42d27672_189d97d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2025-04-06T08:10:37Z",
+      "side": 1,
+      "message": "00-32: Tertiary MI2S_TX Hostless Capture (*) :  : capture 1\n00-47: Quinary MI2S_TX Hostless Capture (*) :  : capture 1",
+      "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
