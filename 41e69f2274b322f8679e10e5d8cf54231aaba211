@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdf4a3e6_ea6a456b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2025-04-06T05:09:13Z",
+      "side": 1,
+      "message": "My sm7325 devices need them and our custom amplifier logged errors which led me to fix it.",
+      "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
