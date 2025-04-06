@@ -16,6 +16,23 @@
       "message": "My sm7325 devices need them and our custom amplifier logged errors which led me to fix it.",
       "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc9777ec_ab51caf5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-04-06T07:07:07Z",
+      "side": 1,
+      "message": "you sure we are expected to use Quinary here? All my other oplus devices use Tertiary instead.\n\n00-32: Tertiary MI2S_TX Hostless Capture (*) :  : capture 1\n00-47: Quinary MI2S_TX Hostless Capture (*) :  : capture 1\n\nfrom instantnoodlep:\n```\n\u003cusecase name\u003d\"USECASE_AUDIO_SPKR_CALIB_TX\" type\u003d\"in\" id\u003d\"32\"/\u003e\n00-32: Tertiary MI2S_TX Hostless Capture (*) :  : capture 1\n```",
+      "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
