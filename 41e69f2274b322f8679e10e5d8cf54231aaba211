@@ -33,6 +33,23 @@
       "message": "you sure we are expected to use Quinary here? All my other oplus devices use Tertiary instead.\n\n00-32: Tertiary MI2S_TX Hostless Capture (*) :  : capture 1\n00-47: Quinary MI2S_TX Hostless Capture (*) :  : capture 1\n\nfrom instantnoodlep:\n```\n\u003cusecase name\u003d\"USECASE_AUDIO_SPKR_CALIB_TX\" type\u003d\"in\" id\u003d\"32\"/\u003e\n00-32: Tertiary MI2S_TX Hostless Capture (*) :  : capture 1\n```",
       "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b5efff3_b2860610",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2025-04-06T07:44:15Z",
+      "side": 1,
+      "message": "04-06 13:12:17.073  1094  3926 D audio_amplifier: pcm_dev_tx_id \u003d 32\n04-06 13:12:17.076  1094  3926 E audio_amplifier: 116: pcm start for TX failed\n04-06 13:12:17.076  1094  3926 E audio_amplifier: tfa98xx_start_feedback: error case\n\n\nThis was on OnePlus Nord CE 3 which uses stereo spk setup, changing it to 47 based on the stock logs fixed it for me. The same change on lunaa fixes the issue where only the left channel would output through the mono speaker setup.",
+      "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
