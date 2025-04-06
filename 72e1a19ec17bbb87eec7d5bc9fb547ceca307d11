@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d773f04c_0eecc9d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2025-04-06T05:15:52Z",
+      "side": 1,
+      "message": "(1440/1080) * 450 \u003d 600 (So, wouldn\u0027t 600 be the correct display density for 1440p considering we use 450 for 1080p?)",
+      "revId": "72e1a19ec17bbb87eec7d5bc9fb547ceca307d11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
