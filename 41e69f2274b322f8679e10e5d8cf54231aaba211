@@ -50,6 +50,24 @@
       "message": "04-06 13:12:17.073  1094  3926 D audio_amplifier: pcm_dev_tx_id \u003d 32\n04-06 13:12:17.076  1094  3926 E audio_amplifier: 116: pcm start for TX failed\n04-06 13:12:17.076  1094  3926 E audio_amplifier: tfa98xx_start_feedback: error case\n\n\nThis was on OnePlus Nord CE 3 which uses stereo spk setup, changing it to 47 based on the stock logs fixed it for me. The same change on lunaa fixes the issue where only the left channel would output through the mono speaker setup.",
       "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4283bad6_438d8095",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-04-06T07:53:07Z",
+      "side": 1,
+      "message": "yes, but what is 47 PCM on nord ce 3? (/proc/asound/pcm)",
+      "parentUuid": "9b5efff3_b2860610",
+      "revId": "41e69f2274b322f8679e10e5d8cf54231aaba211",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
