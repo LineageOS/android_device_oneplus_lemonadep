@@ -9,7 +9,7 @@
         <density default="true">
             <height>1440</height>
             <width>3168</width>
-            <density>560</density>
+            <density>600</density>
         </density>
     </densityMapping>
 </displayConfiguration>
