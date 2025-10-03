@@ -33,6 +33,24 @@
       "message": "Isn\u0027t this equivalent?\n\n```\n     \u003c!-- The stable device width and height in pixels. If these aren\u0027t set to a positive number\n          then the device will use the width and height of the default display the first time it\u0027s\n          booted.  --\u003e\n    \u003cinteger name\u003d\"config_stableDeviceDisplayWidth\"\u003e1440\u003c/integer\u003e\n    \u003cinteger name\u003d\"config_stableDeviceDisplayHeight\"\u003e3216\u003c/integer\u003e\n```",
       "revId": "0fe25174b4710e53f8a9c70c4b0c3ad834a303d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74c2cab6_54a1bf1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2025-10-03T09:42:16Z",
+      "side": 1,
+      "message": "/**\n     * Gets the stable device display size, in pixels.\n     *\n     * This should really only be used for things like server-side filtering of available\n     * applications. Most applications don\u0027t need the level of stability guaranteed by this and\n     * should instead query either the size of the display they\u0027re currently running on or the\n     * size of the default display.\n     * @hide\n     */\n    @SystemApi\n    public Point getStableDisplaySize() {\n        return mGlobal.getStableDisplaySize();\n    }\n\n\nI think what the overlay description is trying to explain is that the overlay populates mStableDisplaySize during the first boot which can then later be accessed by apps.\n\n    // The stable device screen height and width. These are not tied to a specific display, even\n    // the default display, because they need to be stable over the course of the device\u0027s entire\n    // life, even if the default display changes (e.g. a new monitor is plugged into a PC-like\n    // device).\n    private Point mStableDisplaySize \u003d new Point();\n\nThe overlay would be confusing to use on a device with multiple displays. The approach through displayconfig is display specific and also avoids multiple mentions of resolutions in device tree which can also prevent errors.",
+      "parentUuid": "de8d4ee7_758741ef",
+      "revId": "0fe25174b4710e53f8a9c70c4b0c3ad834a303d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
