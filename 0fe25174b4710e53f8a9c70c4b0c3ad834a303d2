@@ -16,6 +16,23 @@
       "message": "Depends on: https://review.lineageos.org/c/LineageOS/android_frameworks_base/+/442127",
       "revId": "0fe25174b4710e53f8a9c70c4b0c3ad834a303d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de8d4ee7_758741ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-03T07:14:55Z",
+      "side": 1,
+      "message": "Isn\u0027t this equivalent?\n\n```\n     \u003c!-- The stable device width and height in pixels. If these aren\u0027t set to a positive number\n          then the device will use the width and height of the default display the first time it\u0027s\n          booted.  --\u003e\n    \u003cinteger name\u003d\"config_stableDeviceDisplayWidth\"\u003e1440\u003c/integer\u003e\n    \u003cinteger name\u003d\"config_stableDeviceDisplayHeight\"\u003e3216\u003c/integer\u003e\n```",
+      "revId": "0fe25174b4710e53f8a9c70c4b0c3ad834a303d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
