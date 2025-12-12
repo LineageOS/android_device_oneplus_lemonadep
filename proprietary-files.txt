@@ -12,11 +12,11 @@ odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
 # ADSP modules
-odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so;MODULE_SUFFIX=_odm_aiboost
-odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so;MODULE_SUFFIX=_odm_aiboost
+odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so
+odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so
 odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
 odm/lib/rfsa/adsp/libQnnHtp.so
-odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so;MODULE_SUFFIX=_odm
+odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
 odm/lib/rfsa/adsp/libQnnHtpSkel.so
 odm/lib/rfsa/adsp/libSuperRawPost_skel.so
 odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
@@ -29,7 +29,7 @@ odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20031.so;FIX_SONAME
 odm/lib/rfsa/adsp/libcalculator_domains_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
 odm/lib/rfsa/adsp/libdehaze_skel.so
-odm/lib/rfsa/adsp/libhdr_skel.so;MODULE_SUFFIX=_odm
+odm/lib/rfsa/adsp/libhdr_skel.so
 odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
 odm/lib/rfsa/adsp/libinterstellar_skel.so
 odm/lib/rfsa/adsp/libktvdrc.so
@@ -51,7 +51,7 @@ odm/lib/rfsa/adsp/libsnpe_htp_v68_skel.so
 odm/lib/rfsa/adsp/libvdblurless_4.6.10L_skel.so
 odm/lib/rfsa/adsp/libvdblurless_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
-odm/lib/rfsa/adsp/libworker_pool.so;MODULE_SUFFIX=_odm
+odm/lib/rfsa/adsp/libworker_pool.so
 
 # Audio
 odm/lib/liblvimfs.so
