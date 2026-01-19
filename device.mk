@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2025 The LineageOS Project
+# Copyright (C) 2021-2026 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -60,6 +60,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
+    KeyHandlerResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
