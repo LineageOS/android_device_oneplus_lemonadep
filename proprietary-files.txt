@@ -714,7 +714,6 @@ odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so
-odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so
@@ -846,10 +845,7 @@ vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
-vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
-vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera firmware
@@ -897,8 +893,6 @@ odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.hal.so
 odm/lib64/libgf_hal_G3.so
 odm/lib64/libolc_vnd.so
-odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so
-odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so
 odm/vendor/firmware/goodixfp.b00
 odm/vendor/firmware/goodixfp.b01
 odm/vendor/firmware/goodixfp.b02
