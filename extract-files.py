@@ -98,6 +98,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/libnfc-nxp.conf': blob_fixup()
         .regex_replace('(NXPLOG_.*_LOGLEVEL)=0x03', '\\1=0x02')
         .regex_replace('NFC_DEBUG_ENABLED=1', 'NFC_DEBUG_ENABLED=0'),
+    'vendor/lib64/libmidasserviceintf_aidl.so': blob_fixup()
+        .remove_needed('android.frameworks.stats@1.0.so'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .call(blob_fixup_nop_call, 'bl', '__cfi_check', '_ZN7android8hardware22configureRpcThreadpoolEmb@plt'),
 }  # fmt: skip
